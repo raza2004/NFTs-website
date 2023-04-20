@@ -1,4 +1,4 @@
-import {useState,useEffect} from "react";
+import {useState} from "react";
 import './Navbar.css';
 import { HiMenu} from 'react-icons/hi';
 
@@ -24,7 +24,7 @@ function Navbar(){
           <a href="#about">About Risidio</a>
           <button className="register"><b>Register with Hiro Wallet</b></button>
         </div>
-        <a href="javascript:void(0);"className="icon"  onClick={handleClick}>
+        <a className="icon"  onClick={handleClick}>
           <HiMenu/>
         </a>
 </div>

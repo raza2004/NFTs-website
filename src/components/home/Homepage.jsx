@@ -16,7 +16,8 @@ function ImageCard({ image, name, artist, price, onClick,owner, items }) {
   return (
     <div className="small-image-card" onClick={onClick}>
       <img src={image} className="small-image" alt="NFT Image" />
-      <p className="image-artist">{artist}</p>
+      <br/>
+      {/* <p className="image-artist">{artist}</p> */}
     </div>
   );
 }
