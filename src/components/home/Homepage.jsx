@@ -15,7 +15,7 @@ import React, { useState } from "react";
 function ImageCard({ image, name, artist, price, onClick,owner, items }) {
   return (
     <div className="small-image-card" onClick={onClick}>
-      <img src={image} className="small-image" alt="NFT Image" />
+      <img src={image} className="small-image" href="NFT Image" />
       <br/>
       {/* <p className="image-artist">{artist}</p> */}
     </div>
@@ -44,7 +44,7 @@ function ImageList({ images, setCurrentImage }) {
 function ImageDisplay({ image, name, artist, price, owner,items }) {
   return (
     <div className="image-display">
-      <img src={image} className="display-image" alt="NFT Image" />
+      <img src={image} className="display-image" href="NFT Image" />
       <div className="display-info">
         <h4 className="image-artist">{artist}</h4>
         <p className="image-name">{name}</p>

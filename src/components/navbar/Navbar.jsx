@@ -30,12 +30,12 @@ function Navbar(){
 </div>
 </div>
         <div className="navbar_container">
-          <img className="nav_banner" src="https://res.cloudinary.com/risidio/image/upload/v1633609222/RisidioMarketplace/gradienta-m_-1_v4hs5p.svg" alt="" />
+          <img className="nav_banner" src="https://res.cloudinary.com/risidio/image/upload/v1633609222/RisidioMarketplace/gradienta-m_-1_v4hs5p.svg" />
           <text className="Marketplace" transform="translate(79 12)" fill="#fff" font-size="12" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="-78" y="0">Marketplace</tspan></text>
       
         <div className="mainNavbar">
           <ul>
-          <img src={logo} alt="risidio-logo" className="logo" />
+          <img src={logo} className="logo" />
             {/* <div className="nav-left"> */}
               <li className="nav-item"> Explore </li>
               <li className="nav-item"> Featured Collections </li>
