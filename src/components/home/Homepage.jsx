@@ -15,7 +15,7 @@ import React, { useState } from "react";
 function ImageCard({ image, name, artist, price, onClick,owner, items }) {
   return (
     <div className="small-image-card" onClick={onClick}>
-      <img src={image} className="small-image" href="NFT Image" />
+      <img src={image} className="small-image" alt="NFT Image" />
       <br/>
       {/* <p className="image-artist">{artist}</p> */}
     </div>
